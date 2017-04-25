@@ -9,7 +9,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +31,8 @@ public class FrontFragment extends Fragment {
 
     TextView ibadaTitle, authenticateButton, acountTitle;
     RecyclerView frontRecyclerview;
+    ImageView youtubeThumbnail;
+    RelativeLayout thumbnail;
 
     public FrontFragment() {
         // Required empty public constructor
@@ -47,12 +53,18 @@ public class FrontFragment extends Fragment {
 
 
         setUpView(rootView);
-        YoutubeFragment fragment = new YoutubeFragment();
-        FragmentManager manager = this.getActivity().getSupportFragmentManager();
-        manager.beginTransaction()
-                .replace(R.id.main, fragment)
-                .addToBackStack(null)
-                .commit();
+
+        Glide.with(FrontFragment.this.getActivity())
+                .load(R.drawable.masanja6)
+                .into(youtubeThumbnail);
+
+        youtubeThumbnail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                loadYoutubeVideo();
+            }
+        });
+
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(FrontFragment.this.getContext());
         layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
@@ -72,10 +84,29 @@ public class FrontFragment extends Fragment {
         return rootView;
     }
 
+    private void loadYoutubeVideo(){
+        thumbnail.setVisibility(View.GONE);
+
+        YoutubeFragment fragment = new YoutubeFragment();
+        FragmentManager manager = this.getActivity().getSupportFragmentManager();
+        manager.beginTransaction()
+                .replace(R.id.main, fragment)
+                .addToBackStack(null)
+                .commit();
+
+    }
+
     public void setUpView(View v){
         frontRecyclerview   = (RecyclerView) v.findViewById(R.id.recycler_view);
+        frontRecyclerview   .setFocusable(false);
+
         ibadaTitle  = (TextView) v.findViewById(R.id.ibada_za_jumapili);
         ibadaTitle.setTypeface(MainActivity.Rosario_Regular);
+
+        youtubeThumbnail = (ImageView) v.findViewById(R.id.youtube_thumbnail);
+
+        thumbnail   = (RelativeLayout) v.findViewById(R.id.thumbnail_rl);
+
     }
 
 }
