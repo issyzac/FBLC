@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c5efe</color>
+    <color name="colorPrimaryDark">#2047FD</color>
+    <color name="colorAccent">#ffa64f</color>
+
+    <color name="white">#ffffff</color>
+    <color name="card_separator">#ffe5e5e5</color>
+    <color name="card_separator_dark_one">#b1b0b0</color>
+    <color name="black">#000000</color>
+
+</resources>

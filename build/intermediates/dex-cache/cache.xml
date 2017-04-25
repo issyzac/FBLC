@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_04ea10934de786ff91484ef08af3abba16a6069d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_dbec0047b8ff81291738098521a6f03f8d1ea3d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_9c9f8ba4bbc5a41704c97a1a209e3b5ec78144f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_2bef48713ef64acb7024447fe2b88ca724ee3154.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/glide-3.7.0_2ea0312705655c6788e8cc795d2c340d3f6b6786.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_67b90b61911b615a761ce713c7fd435878e70732.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_b062ff3b0147f58b3eb90c62ed2aa5eb3714533f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1cd9282f41b3df9fc018dae324625fe4be1790f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_714e5f2aab2a08721df3c1873f6fe212167730b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_d232e199159fefdab86998b74014af88355292c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/administrator/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_a9ffc01f7c0f6744450034921ea270c2dba37be0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_3f354d1467cfb363e1ca0098b7f45d1246ddf363.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_92bf547c81e066d7c06a0a97676fc7b1d3ed81ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_7ed18a4ae29787f6d50b25f20495f187f8b51787.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_95f3d06a5e27656df8765b52daae007f9be632cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_947c577d9350f65c46c2a9f8ab3f8f828c9c2bbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_da5a1e64aeb5d9bc5589369d26646fc20b4cf254.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_6a6af28f1b6f7044b061efbf90740ca7b2289be1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3060ba81f3453159100ec51c946b19e49c193e94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Development/Android/FBLC/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Development/Android/FBLC/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_13e2fa335264580e0eaf21d14ddf066b19e098c4.jar" />
+    </item>
+
+</items>
