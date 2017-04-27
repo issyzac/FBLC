@@ -31,29 +31,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/black"
+                    android:textColor="@color/card_title_text"
+                    android:layout_centerVertical="true"
                     android:text="UMEZALIWA KUSHINDA!"
                     android:maxLines="1"
+                    android:textSize="12sp"
                     android:ellipsize="start"
-                    android:layout_marginTop="4dp"
                     android:layout_marginLeft="8dp"
                     android:id="@+id/sermon_title"
                     android:layout_marginRight="8dp"
                     android:textStyle="bold"/>
-
-                <TextView
-                    android:visibility="gone"
-                    android:layout_below="@id/sermon_title"
-                    android:layout_marginTop="4dp"
-                    android:id="@+id/sermon_subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:text="Mwanza NVC Semina"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    />
 
             </RelativeLayout>
 

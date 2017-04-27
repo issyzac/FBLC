@@ -23,6 +23,8 @@ import apps.soma.com.fblc.customviews.NonSwipeableViewPager;
 import apps.soma.com.fblc.fragments.AccountFragment;
 import apps.soma.com.fblc.fragments.FrontFragment;
 import apps.soma.com.fblc.fragments.HomeFragment;
+import apps.soma.com.fblc.fragments.LiveFragment;
+import apps.soma.com.fblc.fragments.RatibaFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
     public static NonSwipeableViewPager viewPager;
 
     public static Typeface Athletic, Fun_Raiser, Roboto_Condensed, Roboto_Black, Roboto_Light, Roboto_BoldCondensedItalic, Roboto_BoldCondensed, Rosario_Regular, Rosario_Bold, Rosario_Italic, Roboto_Regular, Roboto_Medium;
+
+    public final static String EXTRA_ORIENTATION = "EXTRA_ORIENTATION";
+    public final static String EXTRA_WITH_LINE_PADDING = "EXTRA_WITH_LINE_PADDING";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,8 +116,8 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new FrontFragment(), "Home");
         adapter.addFragment(new HomeFragment(), "Library");
-        adapter.addFragment(new HomeFragment(), "Live");
-        adapter.addFragment(new HomeFragment(), "Calendar");
+        adapter.addFragment(new LiveFragment(), "Live");
+        adapter.addFragment(new RatibaFragment(), "Calendar");
         adapter.addFragment(new AccountFragment(), "Profile");
         viewPager.setAdapter(adapter);
     }

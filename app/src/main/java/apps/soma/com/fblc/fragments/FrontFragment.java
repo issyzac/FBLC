@@ -29,7 +29,7 @@ import apps.soma.com.fblc.datamodels.Sermon;
 
 public class FrontFragment extends Fragment {
 
-    TextView ibadaTitle, authenticateButton, acountTitle;
+    TextView ibadaTitle, authenticateButton, bannerTitle;
     RecyclerView frontRecyclerview;
     ImageView youtubeThumbnail;
     RelativeLayout thumbnail;
@@ -71,7 +71,7 @@ public class FrontFragment extends Fragment {
         frontRecyclerview.setLayoutManager(layoutManager);
 
         List<Sermon> dataList = new ArrayList<>();
-        dataList.add(new Sermon());
+        dataList.add(new Sermon("UMEZALIWA KUSHINDA","Mwanza NVC Semina"));
         dataList.add(new Sermon("UMEZALIWA KUSHINDA","Mwanza NVC Semina"));
         dataList.add(new Sermon("UMEZALIWA KUSHINDA","Mwanza NVC Semina"));
         dataList.add(new Sermon("UMEZALIWA KUSHINDA","Mwanza NVC Semina"));
@@ -101,11 +101,14 @@ public class FrontFragment extends Fragment {
         frontRecyclerview   .setFocusable(false);
 
         ibadaTitle  = (TextView) v.findViewById(R.id.ibada_za_jumapili);
-        ibadaTitle.setTypeface(MainActivity.Rosario_Regular);
+        ibadaTitle.setTypeface(MainActivity.Roboto_Light);
 
         youtubeThumbnail = (ImageView) v.findViewById(R.id.youtube_thumbnail);
 
         thumbnail   = (RelativeLayout) v.findViewById(R.id.thumbnail_rl);
+
+        bannerTitle = (TextView) v.findViewById(R.id.banner_video_title);
+        bannerTitle .setTypeface(MainActivity.Roboto_BoldCondensed);
 
     }
 
