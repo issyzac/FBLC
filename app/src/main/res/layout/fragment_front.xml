@@ -45,7 +45,19 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:layout_centerInParent="true"
-                        android:src="@drawable/play"/>
+                        android:src="@drawable/play"
+                        android:id="@+id/play_button"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/banner_video_title"
+                        android:layout_below="@id/play_button"
+                        android:layout_marginTop="16dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="April 25th 2017 Service"
+                        android:textStyle="bold"/>
 
                 </RelativeLayout>
 
@@ -65,18 +77,21 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="16dp"
                 android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textSize="12sp"
+                android:textColor="@color/card_grid_text"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="VIEW ALL"
+                android:textSize="12sp"
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="16dp"
-                android:padding="4dp"
-                android:background="@color/card_separator_dark_one"
-                android:textColor="@color/black"/>
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_conner_button"
+                android:textColor="@color/white"/>
 
         </RelativeLayout>
 

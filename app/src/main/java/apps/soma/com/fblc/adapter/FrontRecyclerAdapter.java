@@ -59,7 +59,6 @@ public class FrontRecyclerAdapter extends RecyclerView.Adapter <RecyclerView.Vie
             Sermon sermon = items.get(itemPosition-1);
             ListViewItemViewHolder holder = (ListViewItemViewHolder) viewHolder;
             holder.title.setText(sermon.getSermon_title());
-            holder.subTitle.setText(sermon.getSermon_description());
         }else if (viewHolder instanceof ListViewHeaderViewHolder){
 
         }
@@ -95,7 +94,6 @@ public class FrontRecyclerAdapter extends RecyclerView.Adapter <RecyclerView.Vie
         public ListViewItemViewHolder(View itemView){
             super(itemView);
             title       = (TextView) itemView.findViewById(R.id.sermon_title);
-            subTitle    = (TextView) itemView.findViewById(R.id.sermon_subtitle);
         }
 
     }

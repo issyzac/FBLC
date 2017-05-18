@@ -31,4 +31,15 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
     testCompile 'junit:junit:4.12'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
+
+    compile 'com.github.aakira:expandable-layout:1.5.1@aar'
+
+    compile 'com.github.vipulasri:timelineview:1.0.5'
+
+    compile ('com.jakewharton:butterknife:8.5.1'){
+        exclude module: 'support-compat'
+    }
+
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+
 }
